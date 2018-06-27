@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+  centos:
+    build: .
+    working_dir: /home/docker
+    volumes:
+      - ./dotfiles:/home/docker/dotfiles
